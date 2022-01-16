@@ -1,6 +1,6 @@
 {
-  "name": "api-builder",
-  "version": "1.0.0",
+  "name": "api-config-builder",
+  "version": "0.1.1",
   "description": "Utilities for api request and response",
   "main": "index.js",
   "scripts": {
