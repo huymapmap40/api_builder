@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest -c jest.config.js"
   },
-  "author": "",
+  "author": "Henry Nguyen",
   "license": "ISC",
   "devDependencies": {
     "@types/debug": "^4.1.7",
