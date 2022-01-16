@@ -1,12 +1,21 @@
 {
-  "name": "api-builder",
-  "version": "1.0.0",
+  "name": "api-config-builder",
+  "version": "0.1.2",
   "description": "Utilities for api request and response",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "package.json",
+    "README.md",
+    "CHANGELOG.md",
+    "**/*.d.ts"
+  ],
   "scripts": {
-    "test": "jest -c jest.config.js"
+    "test": "jest -c jest.config.js",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
   },
-  "author": "",
+  "author": "Henry Nguyen",
   "license": "ISC",
   "devDependencies": {
     "@types/debug": "^4.1.7",
