@@ -1,6 +1,6 @@
 import { AxiosError, AxiosResponse, AxiosRequestConfig } from 'axios';
 import { PARAM_TYPE, CONFIG_TYPE } from '../builder/types';
-import ApiRequestBuilder from '../builder/requestBuilder';
+import { ApiRequestBuilder } from '../builder/requestBuilder';
 
 describe('test api request builder', () => {
     it('test successfully', async () => {
