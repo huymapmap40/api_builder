@@ -1,15 +1,15 @@
-# Api Config Builder
+# Api Request Builder
 
 ### Package Info:
 
-This is an utility of api config builder base on [axios](https://www.npmjs.com/package/axios) package. It make more easily to create new a http request and handling response.
+This is an utility of api request builder base on [axios](https://www.npmjs.com/package/axios) package. It make more easily to create new a http request and handling response.
 - Read introduce [axios](https://axios-http.com/docs/intro)
-- More contribute to [api-config-builder](https://github.com/huymapmap40/api_builder) github repo
+- More contribute to [api-req-builder](https://github.com/huymapmap40/api_builder) github repo
 
 ### Installing Package:
 
 ```
-npm install api-config-builder
+npm install api-req-builder
 ```
 ### Table methods:
 
@@ -23,13 +23,13 @@ npm install api-config-builder
 | sendRequest  | Create a http request and send it with all config added  |Content   |
 ### Usage:
 
-1. import module `Api Config Builder`
+1. import module `Api Request Builder`
 
 ```typescript
-import ApiRequestBuilder from 'api-config-builder';
+import { ApiRequestBuilder }  from 'api-req-builder';
 ```
 
-2. Create object `Api Config Builder`:
+2. Create object `Api Request Builder`:
 
 ```typescript
 const builder = new ApiRequestBuilder();
