@@ -1,6 +1,6 @@
 {
-  "name": "api-config-builder",
-  "version": "0.1.2",
+  "name": "api-builder-request",
+  "version": "0.1.0",
   "description": "Utilities for api request and response",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
